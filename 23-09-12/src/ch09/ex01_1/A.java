@@ -10,6 +10,9 @@ public class A {
     private int d = 4;
 
     public void print() {
+        // 자식 클래스에서는 public와 더불어서 프로텍트를 사용할 수 있당
+        // 프로텍트와 디폴드는 잘 사용하지 않는다. 프라이벗트를 잘사용한다. 퍼블릭도 자주사용한당
+        // 실제개발에서는 디폴트와 프로덕트를 잘사용하지 않음
         System.out.print(a + " ");
         System.out.print(b + " ");
         System.out.print(c + " ");
