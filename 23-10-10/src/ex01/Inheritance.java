@@ -7,7 +7,7 @@ class Human {
         System.out.println("먹었다.");
     };
     void sleep() {
-        System.out.println("잤다.");
+        System.out.println("잤다.");   
     };
 }
 
