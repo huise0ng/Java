@@ -26,5 +26,9 @@ public class StaticFiled_2 {
 
         System.out.println(a1.n);
         System.out.println(a2.n);
+
+        A.n = 9;
+        System.out.println(A.n);
+
     }
 }
